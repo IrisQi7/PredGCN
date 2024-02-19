@@ -2,7 +2,7 @@
 
 # Installation Guide
        
-Before running the tool, we recommend creating an environment locally using ‘’‘conda’‘’ first, then you need to install the following packages in your environment, scMGCA mainly depends on the followinb Python packages:
+Before running the tool, we recommend creating an environment locally using ‘’‘conda’‘’ first, then you need to install the following packages in your environment, PredGCN mainly depends on the followinb Python packages:
       
 python:
 
