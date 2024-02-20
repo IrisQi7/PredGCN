@@ -6,7 +6,7 @@ Pruning-enabled Gene-Cell Net(PredGCN) is an automatic framework for scRNA-seq d
 
 # Installation Guide
        
-Before running the tool, we recommend creating an environment locally using '''conda''' first, then you need to install the following packages in your environment, PredGCN mainly depends on the following Python packages:
+Before starting the installation, we recommend starting by creating a local conda environment and installing the following packages in that environment in order. PredGCN mainly depends on the following Python packages:
       
 python:
 
@@ -16,14 +16,16 @@ python:
     rpy2
     r-devtools
     
-After installing the python package, switch to '''R''' environment, and install the following tool:
+After installation of the python package, switch to the R environment and execute the following R commands:
         
 R:
 
     library(devtools)
     install_github("suke18/FEAST")
 
-# Usage
+### Usage
+
+After completing the installation process, follow the commands below to use PredGCN:
 
     cd PredGCN
     mkdir MLmodels
@@ -38,7 +40,7 @@ As PredGCN is developed using Python and R programming languages, the installati
 
 # Data Availability
 
-The data sets we used can be download in <a href="https://figshare.com/articles/dataset/scCPEP/22333150">datas</a>.
+To comprehensively evaluate PredGCN across various contexts, we curated several real scRNA-seq datasets spanning different species (human and mouse), organs (pancreas and PBMC), and sequencing platforms(including SMARTer, 10x Genomics, inDrop, CEL-seq2, and Smart-seq2).The data sets we used can be download in <a href="https://figshare.com/articles/dataset/scCPEP/22333150">datas</a>.
 
 # License
 This project is covered under the MIT License.
