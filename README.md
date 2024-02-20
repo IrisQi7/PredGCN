@@ -34,12 +34,11 @@ R:
 
 <img width="359" alt="webserver_screenshoot" src="https://github.com/IrisQi7/PredGCN/assets/67795742/6cfab30f-019a-4fea-b857-dbac5f6ffc0a">
 
+As PredGCN is developed using Python and R programming languages, the installation process may be complicated and time-consuming. For user convenience, a dedicated PredGCN webserver has been established. It is now publicly accessible via <a href="https://www.aibio-lab.com/PredGCN/index/">link</a>.
+
 # Data Availability
 
 The data sets we used can be download in <a href="https://figshare.com/articles/dataset/scCPEP/22333150">datas</a>.
-
-As PredGCN is developed using Python and R programming languages, the installation process may be complicated and time-consuming. For user convenience, a dedicated PredGCN webserver has been established. It is now publicly accessible via <a href="https://www.aibio-lab.com/PredGCN/index/">link</a>
-
 
 # License
 This project is covered under the MIT License.
