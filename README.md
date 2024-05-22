@@ -1,6 +1,7 @@
 # PredGCN
 
-![image](https://github.com/IrisQi7/PredGCN/blob/master/framework_screenshoot.png)
+![framework_v2 1](https://github.com/IrisQi7/PredGCN/assets/67795742/90bb006d-07e4-4b41-a694-8437977e8d28)
+
 
 
 Pruning-enabled Gene-Cell Net(PredGCN) is an automatic framework for scRNA-seq data annotation. It incorporates a Coupled Gene-Cell Net (CGCN) to enable representation learning and information storage. PredGCN integrates a Gene Splicing Net (GSN) and a Cell Stratification Net (CSN), employing a pruning operation (PrO) to dynamically tackle the complexity of heterogeneous cell identification. Among them, GSN leverages multiple statistical and hypothesis-driven feature extraction methods to selectively assemble genes with specificity for scRNA-seq data while CSN unifies elements based on diverse region demarcation principles, exploiting the representations from GSN and precise identification from different regional homogeneity perspectives. Furthermore, we develop a multi-objective Pareto pruning operation(Pareto PrO) to expand the dynamic capabilities of CGCN, optimizing the sub-network structure for accurate cell type annotation.
